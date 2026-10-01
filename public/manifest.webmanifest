@@ -1,0 +1,16 @@
+{
+  "name": "閱讀日記",
+  "short_name": "閱讀日記",
+  "lang": "zh-TW",
+  "start_url": "/ReadingDiary/",
+  "scope": "/ReadingDiary/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F8D47E",
+  "theme_color": "#FCD883",
+  "icons": [
+    { "src": "/ReadingDiary/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/ReadingDiary/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/ReadingDiary/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

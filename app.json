@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "閱讀日記",
+    "slug": "ReadingDiary",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "readapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.readapp.reading",
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FCD883",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.readapp.reading",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "name": "閱讀日記",
+      "shortName": "閱讀日記",
+      "backgroundColor": "#F8D47E",
+      "themeColor": "#FCD883",
+      "display": "standalone",
+      "lang": "zh-TW"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F8D47E",
+          "image": "./assets/images/icon.png",
+          "imageWidth": 300
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true,
+      "baseUrl": "/ReadingDiary"
+    },
+    "extra": {
+      "router": {}
+    }
+  }
+}
